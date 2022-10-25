@@ -9,7 +9,7 @@ from plotly.subplots import make_subplots
 app = Dash(__name__)
 
 # Add server start
-server = app.searver
+server = app.server
 
 tips = pd.read_csv('RestaurantTips.csv')
 
